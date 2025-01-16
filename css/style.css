@@ -15,7 +15,7 @@ body {
 .container {
   width: 100%;
   max-width: 400px;
-  background-color: #ffffff;
+  background-color: #eaf8ff;
   padding: 20px;
   border: 1px groove black;
   border-radius: 8px;
@@ -33,20 +33,23 @@ h1 {
 input[type="text"] {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   outline: none;
 }
 button {
   padding: 10px;
   border: none;
-  background-color: #3498db;
-  color: #ffffff;
+  background-color: #97f3ff;
+  color: #000;
+  font-weight: 800;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.7s;
 }
 button:hover {
-  background-color: #2980b9;
+  background-color: #0cd1c7c4;
+  color: white;
 } /* Estilos dos itens da lista */
 ul {
   list-style: none;
@@ -64,5 +67,6 @@ li {
 li .remove-btn {
   color: #e74c3c;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: bolder;
 }
+
